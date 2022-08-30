@@ -7,6 +7,7 @@ if (start == end) return start.ToString();
 // Рекурсивный случай
 return (start + ", " + PrintNumbers(start+1, end));
 }
+
 Console.WriteLine("Введите число M");
 int M = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите число N");
